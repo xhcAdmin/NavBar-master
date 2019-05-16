@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
-//apply plugin: 'com.novoda.bintray-release'//添加
-
+// add these
+apply plugin: 'com.github.dcendents.android-maven'
+group='xhcAdmin'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
